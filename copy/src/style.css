@@ -1,0 +1,51 @@
+@import "banner.css";
+@import "services.css";
+@import "about-us.css";
+@import "reviews.css";
+@import "footer.css";
+@import "navbar.css";
+
+:root {
+    --gold-color: rgb(191 146 91);
+    --black-color: rgb(20 27 37);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: "Barlow Condensed", "Gill Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+    line-height: 1.6rem;
+}
+
+body a {
+    text-decoration: none;
+    color: white;
+}
+
+body li {
+    list-style-type: none;
+}
+
+body h1, h2, h3 {
+    font-family: "Poppins", "Gill Sans", sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}

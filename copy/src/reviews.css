@@ -1,0 +1,134 @@
+.review-section {
+    background-color: rgb(235 232 222);
+    padding: 6rem 1rem;
+}
+
+.review-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+    line-height: 2.5rem;
+}
+
+.testimonial h3 {
+    color: var(--gold-color);
+}
+
+.testimonial h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.review {
+    background-color: white;
+    padding: 1rem 1.5rem;
+    margin: 1rem;
+    box-shadow: 0px 10px 5px -13.5px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.review-quote-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gold-color);
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: white;
+    position: relative;
+    margin-top: -36px; /*half height 20px + padding of parent 16px*/
+}
+
+.reviewer {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem 0rem 0.7rem 0rem;
+}
+
+.reviewer img {
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+    border-radius: 100px;
+    position: relative;
+}
+
+.stars {
+    color: var(--gold-color);
+    font-size: 0.7rem;
+}
+
+.reviewer h3 {
+    
+margin: 0.5rem 0;
+}
+
+.reviewer p {
+    color: var(--gold-color);
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.circles {
+    color: rgb(198, 198, 198);
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-circle {
+    margin: 4px;
+}
+
+.circle-1 {
+    color: var(--gold-color);
+}
+
+.two-pages {
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.three-pages {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .rev-3 {
+        display: none;
+    }
+
+    .two-pages {
+        display: contents;
+    }
+
+    .three-pages {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .rev-2 {
+        display: none;
+    }
+
+    .three-pages {
+        display: contents;
+    }
+
+}
